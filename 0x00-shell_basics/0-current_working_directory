@@ -1,2 +1,2 @@
 #!/bin/bash
-pwd
+realpath "$0" | sed 's|\(.*\)/.*|\1|'
